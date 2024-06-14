@@ -5,6 +5,7 @@ import Link from "next/link";
 import { cn } from "@/lib/utils";
 import { DirectionAwareHover } from "@/components/ui/direction-aware-hover";
 import { Icon } from "lucide-react";
+import Image from "next/image";
 
 const projects = [
   {
@@ -35,6 +36,14 @@ export default function Projects() {
           return (
             <Link key={index} href={project.link}>
               <div className={cn("p-5 rounded-md", project.background)}>
+                <Image
+                  alt="image"
+                  className="object-cover space-y-5 cursor-pointer"
+                  width={1000}
+                  height={500}
+                  src={project.cover}
+                />
+
                 <DirectionAwareHover
                   imageUrl={project.cover}
                   className="w-full h-60 space-y-5 cursor-pointer"
