@@ -8,19 +8,19 @@ const font = Space_Grotesk({ subsets: ["latin"] });
 export const metadata: Metadata = {
   metadataBase: new URL("http://localhost:3000/"),
 
-  title: "DevCats Software Development",
+  title: "Marius Chitaru | Personal Portfolio",
   authors: {
-    name: "chensokheng",
+    name: "Marius Chitaru",
   },
 
   description:
-    "Welcome to Devcats, the alternative software development partner. Subscribe monthly, or pay a one time fee. No need to hire in house, just hire us. Think of us as your development partners, taking you from idea to launch.",
+    "I am a highly experienced software developer with over 18 years in the industry, proficient in multiple programming languages and development environments. With a proven track record in full-stack development, software architecture, and leading development teams to success, I also have significant experience in agile methodologies and project management.",
   openGraph: {
-    title: "DevCats Software Development",
+    title: "Marius Chitaru | Personal Portfolio",
     description:
-      "Welcome to Devcats, the alternative software development partner. Subscribe monthly, or pay a one time fee. No need to hire in house, just hire us. Think of us as your development partners, taking you from idea to launch.",
+      "I am a highly experienced software developer with over 18 years in the industry, proficient in multiple programming languages and development environments. With a proven track record in full-stack development, software architecture, and leading development teams to success, I also have significant experience in agile methodologies and project management.",
     url: "http://localhost:3000",
-    siteName: "DevCats Software Development",
+    siteName: "Marius Chitaru | Personal Portfolio",
     images: "/Site.png",
     type: "website",
   },
