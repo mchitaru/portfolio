@@ -36,14 +36,6 @@ export default function Projects() {
           return (
             <Link key={index} href={project.link}>
               <div className={cn("p-5 rounded-md", project.background)}>
-                <Image
-                  alt="image"
-                  className="object-cover space-y-5 cursor-pointer"
-                  width={1000}
-                  height={500}
-                  src={project.cover}
-                />
-
                 <DirectionAwareHover
                   imageUrl={project.cover}
                   className="w-full h-60 space-y-5 cursor-pointer"
