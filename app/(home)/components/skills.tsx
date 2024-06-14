@@ -8,24 +8,44 @@ import {
   SiNodedotjs,
   SiReact,
   SiTailwindcss,
+  SiQt,
+  SiPhp,
+  SiLaravel,
+  SiCplusplus,
 } from "react-icons/si";
 
 const skills = [
   {
-    text: "Javascript",
-    icon: SiJavascript,
+    text: "QT",
+    icon: SiQt,
+  },
+  {
+    text: "Laravel",
+    icon: SiLaravel,
+  },
+  {
+    text: "Next.js",
+    icon: SiNextdotjs,
   },
   {
     text: "Node.js",
     icon: SiNodedotjs,
   },
   {
-    text: "React",
-    icon: SiReact,
+    text: "C++",
+    icon: SiCplusplus,
   },
   {
-    text: "Next.js",
-    icon: SiNextdotjs,
+    text: "PHP",
+    icon: SiPhp,
+  },
+  {
+    text: "Javascript",
+    icon: SiJavascript,
+  },
+  {
+    text: "React",
+    icon: SiReact,
   },
   {
     text: "Tailwind",

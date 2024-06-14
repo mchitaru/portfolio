@@ -8,21 +8,27 @@ export default function Hero() {
     <div className="min-h-[60vh] flex flex-col-reverse gap-14 lg:gap-0 lg:flex-row items-center justify-between animate-move-up">
       <div className="space-y-10 text-center lg:text-left">
         <h1 className="text-4xl lg:text-7xl font-bold">
-          We build{" "}
+          I like to build <br />
           <span className="underline underline-offset-8 decoration-green-500">
             {"awesome"}
-          </span>
-          <br />
+          </span>{" "}
           software
         </h1>
-        <p className="w-100 md:w-96 text-lg text-gray-300">
-          {
-            "Welcome to Devcats, the alternative software development partner. Subscribe monthly, or pay a one time fee. No need to hire in house, just hire us. Think of us as your development partners, taking you from idea to launch."
-          }
+        <p className="w-auto max-w-lg text-lg text-gray-300">
+          {`I am a highly experienced software developer with over 18 years in the industry,
+              proficient in multiple programming languages and development environments.`}
+          <br />
+          {`With a
+              proven track record in full-stack development, software architecture, and leading
+              development teams to success, I also have significant experience in agile
+              methodologies and project management`}
         </p>
-        <Link href={"mailto:someone@gmail.com"} className="inline-block group">
+        <Link
+          href={"mailto:marius.chitaru@gmail.com"}
+          className="inline-block group min-h-24"
+        >
           <Title
-            text="Contact us 📨"
+            text="Contact me 📨"
             className="text-3xl font-bold group-hover:text-green-400 transition-all"
           />
         </Link>
@@ -43,7 +49,9 @@ export default function Hero() {
         </div>
         <div className="absolute bottom-5 sm:bottom-14 left-0 sm:-left-10">
           <MovingBorderBtn borderRadius="0.5rem" className="p-3 font-semibold">
-            <p>📢 Available for Work</p>
+            <Link href={"mailto:marius.chitaru@gmail.com"}>
+              <p>📢 Available for Work</p>
+            </Link>
           </MovingBorderBtn>
         </div>
       </div>
