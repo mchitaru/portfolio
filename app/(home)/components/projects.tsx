@@ -12,14 +12,14 @@ const projects = [
     title: "Personal Blog",
     tech: [SiNextdotjs, SiTailwindcss],
     link: "https://www.agilecoach.ro/",
-    cover: "/project1.png",
+    cover: "/Project1.png",
     background: "bg-indigo-500",
   },
   {
     title: "Note Taking App",
     tech: [SiNextdotjs, SiTailwindcss, SiSupabase],
     link: "https://note-app-gilt-ten.vercel.app/",
-    cover: "/project2.png",
+    cover: "/Project2.png",
     background: "bg-green-500",
   },
 ];
