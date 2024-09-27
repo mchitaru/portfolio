@@ -18,7 +18,7 @@ const projects = [
   {
     title: "Note Taking App",
     tech: [SiNextdotjs, SiTailwindcss, SiSupabase],
-    link: "https://note-app-gilt-ten.vercel.app/",
+    link: "https://get-notefy.vercel.app/",
     cover: "/Project2.png",
     background: "bg-green-500",
   },
@@ -34,7 +34,12 @@ export default function Projects() {
       <div className="grid grid-cols-1 sm:grid-cols-2 pt-20 gap-5">
         {projects.map((project, index) => {
           return (
-            <Link key={index} href={project.link}>
+            <Link
+              key={index}
+              href={project.link}
+              rel="noopener noreferrer"
+              target="_blank"
+            >
               <div className={cn("p-5 rounded-md", project.background)}>
                 <DirectionAwareHover
                   imageUrl={project.cover}
