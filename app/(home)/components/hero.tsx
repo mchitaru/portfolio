@@ -5,7 +5,7 @@ import Title from "./title";
 
 export default function Hero() {
   return (
-    <div className="min-h-[60vh] flex flex-col-reverse gap-14 lg:gap-0 lg:flex-row items-center justify-between animate-move-up">
+    <div className="min-h-[60vh] flex flex-col-reverse bg-background gap-14 lg:gap-0 lg:flex-row items-center justify-between animate-move-up">
       <div className="space-y-10 text-center lg:text-left">
         <h1 className="text-4xl lg:text-7xl font-bold">
           I like to build <br />
@@ -14,7 +14,7 @@ export default function Hero() {
           </span>{" "}
           software
         </h1>
-        <p className="w-auto max-w-lg text-lg text-gray-300">
+        <p className="w-auto max-w-lg text-lg text-gray-600 dark:text-gray-300">
           {`I am a highly experienced software developer with over 18 years in the industry,
               proficient in multiple programming languages and development environments.`}
           <br />

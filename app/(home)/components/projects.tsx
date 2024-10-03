@@ -9,17 +9,38 @@ import Image from "next/image";
 
 const projects = [
   {
-    title: "Personal Blog",
+    title: "Agilecoach - Personal Blog",
     tech: [SiNextdotjs, SiTailwindcss],
     link: "https://www.agilecoach.ro/",
     cover: "/Project1.png",
     background: "bg-indigo-500",
   },
   {
-    title: "Note Taking App",
+    title: "Notefy - Markdown Note Taking App",
     tech: [SiNextdotjs, SiTailwindcss, SiSupabase],
     link: "https://get-notefy.vercel.app/",
     cover: "/Project2.png",
+    background: "bg-green-500",
+  },
+  {
+    title: "Mailwiki - Business Intelligence for Email Campaigns",
+    tech: [SiNextdotjs, SiTailwindcss, SiSupabase],
+    link: "https://mailwiki.vercel.app/",
+    cover: "/Project3.png",
+    background: "bg-green-500",
+  },
+  {
+    title: "Rejob - Remote Jobs Platform",
+    tech: [SiNextdotjs, SiTailwindcss, SiSupabase],
+    link: "https://getrejob.vercel.app/",
+    cover: "/Project4.png",
+    background: "bg-green-500",
+  },
+  {
+    title: "Stomato - Dental Clinic Management Platform",
+    tech: [SiNextdotjs, SiTailwindcss, SiSupabase],
+    link: "https://stomato.vercel.app/",
+    cover: "/Project5.png",
     background: "bg-green-500",
   },
 ];
