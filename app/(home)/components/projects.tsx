@@ -1,5 +1,12 @@
 import React from "react";
-import { SiNextdotjs, SiSupabase, SiTailwindcss } from "react-icons/si";
+import {
+  SiNextdotjs,
+  SiSupabase,
+  SiTailwindcss,
+  SiMarkdown,
+  SiPrisma,
+  SiTypescript,
+} from "react-icons/si";
 import Title from "./title";
 import Link from "next/link";
 import { cn } from "@/lib/utils";
@@ -10,35 +17,35 @@ import Image from "next/image";
 const projects = [
   {
     title: "Agilecoach - Personal Blog",
-    tech: [SiNextdotjs, SiTailwindcss],
+    tech: [SiNextdotjs, SiTailwindcss, SiMarkdown],
     link: "https://www.agilecoach.ro/",
     cover: "/Project1.png",
     background: "bg-indigo-500",
   },
   {
     title: "Notefy - Markdown Note Taking App",
-    tech: [SiNextdotjs, SiTailwindcss, SiSupabase],
+    tech: [SiTypescript, SiNextdotjs, SiTailwindcss, SiPrisma],
     link: "https://get-notefy.vercel.app/",
     cover: "/Project2.png",
     background: "bg-green-500",
   },
   {
     title: "Mailwiki - Business Intelligence for Email Campaigns",
-    tech: [SiNextdotjs, SiTailwindcss, SiSupabase],
+    tech: [SiTypescript, SiNextdotjs, SiTailwindcss, SiPrisma],
     link: "https://mailwiki.vercel.app/",
     cover: "/Project3.png",
     background: "bg-green-500",
   },
   {
     title: "Rejob - Remote Jobs Platform",
-    tech: [SiNextdotjs, SiTailwindcss, SiSupabase],
+    tech: [SiTypescript, SiNextdotjs, SiTailwindcss, SiPrisma],
     link: "https://getrejob.vercel.app/",
     cover: "/Project4.png",
     background: "bg-green-500",
   },
   {
     title: "Stomato - Dental Clinic Management Platform",
-    tech: [SiNextdotjs, SiTailwindcss, SiSupabase],
+    tech: [SiTypescript, SiNextdotjs, SiTailwindcss, SiPrisma],
     link: "https://stomato.vercel.app/",
     cover: "/Project5.png",
     background: "bg-green-500",

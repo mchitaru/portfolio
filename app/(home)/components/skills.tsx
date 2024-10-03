@@ -3,25 +3,28 @@ import React from "react";
 import Title from "./title";
 import { HoverEffect } from "@/components/ui/card-hover-effect";
 import {
-  SiJavascript,
   SiNextdotjs,
   SiNodedotjs,
   SiReact,
+  SiCss3,
   SiTailwindcss,
   SiQt,
   SiPhp,
   SiLaravel,
   SiCplusplus,
+  SiTypescript,
+  SiPrisma,
+  SiHtml5,
 } from "react-icons/si";
 
 const skills = [
   {
-    text: "QT",
-    icon: SiQt,
+    text: "Html5",
+    icon: SiHtml5,
   },
   {
-    text: "Laravel",
-    icon: SiLaravel,
+    text: "Typescript",
+    icon: SiTypescript,
   },
   {
     text: "Next.js",
@@ -32,24 +35,36 @@ const skills = [
     icon: SiNodedotjs,
   },
   {
-    text: "C++",
-    icon: SiCplusplus,
+    text: "React",
+    icon: SiReact,
+  },
+  {
+    text: "Css",
+    icon: SiCss3,
+  },
+  {
+    text: "Tailwind",
+    icon: SiTailwindcss,
+  },
+  {
+    text: "Prisma",
+    icon: SiPrisma,
   },
   {
     text: "PHP",
     icon: SiPhp,
   },
   {
-    text: "Javascript",
-    icon: SiJavascript,
+    text: "Laravel",
+    icon: SiLaravel,
   },
   {
-    text: "React",
-    icon: SiReact,
+    text: "C++",
+    icon: SiCplusplus,
   },
   {
-    text: "Tailwind",
-    icon: SiTailwindcss,
+    text: "QT",
+    icon: SiQt,
   },
 ];
 
