@@ -39,7 +39,7 @@ const projects = [
   {
     title: "Rejob - Remote Jobs Platform",
     tech: [SiTypescript, SiNextdotjs, SiTailwindcss, SiPrisma],
-    link: "#",
+    link: "https://getrejob.vercel.app/",
     cover: "/Project4.png",
     background: "bg-green-500",
   },
