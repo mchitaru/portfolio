@@ -39,15 +39,22 @@ const projects = [
   {
     title: "Rejob - Remote Jobs Platform",
     tech: [SiTypescript, SiNextdotjs, SiTailwindcss, SiPrisma],
-    link: "https://getrejob.vercel.app/",
+    link: "#",
     cover: "/Project4.png",
     background: "bg-green-500",
   },
   {
     title: "Stomato - Dental Clinic Management Platform",
     tech: [SiTypescript, SiNextdotjs, SiTailwindcss, SiPrisma],
-    link: "https://stomato.vercel.app/",
+    link: "https://stomato.app/",
     cover: "/Project5.png",
+    background: "bg-green-500",
+  },
+  {
+    title: "BloctriX - Blockchain Analythics Dashboard",
+    tech: [SiTypescript, SiNextdotjs, SiTailwindcss, SiPrisma],
+    link: "https://blocktrix.xyz/",
+    cover: "/Project6.png",
     background: "bg-green-500",
   },
 ];
