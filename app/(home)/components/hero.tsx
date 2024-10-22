@@ -25,7 +25,7 @@ export default function Hero() {
         </p>
         <Link
           href={"mailto:marius.chitaru@gmail.com"}
-          className="inline-block group min-h-24"
+          className="inline-block group min-h-18"
         >
           <Title
             text="Contact me 📨"
