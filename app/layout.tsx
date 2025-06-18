@@ -14,11 +14,11 @@ export const metadata: Metadata = {
   },
 
   description:
-    "I am a highly experienced software developer with over 18 years in the industry, proficient in multiple programming languages and development environments. With a proven track record in full-stack development, software architecture, and leading development teams to success, I also have significant experience in agile methodologies and project management.",
+    "I build complex, fast, reliable and UX optimized web apps in record time using Next.js. Your startup idea will be brought to life in less then a month.",
   openGraph: {
     title: "Marius Chitaru | Personal Portfolio",
     description:
-      "I am a highly experienced software developer with over 18 years in the industry, proficient in multiple programming languages and development environments. With a proven track record in full-stack development, software architecture, and leading development teams to success, I also have significant experience in agile methodologies and project management.",
+      "I build complex, fast, reliable and UX optimized web apps in record time using Next.js. Your startup idea will be brought to life in less then a month.",
     url: "http://localhost:3000",
     siteName: "Marius Chitaru | Personal Portfolio",
     images: "/Site.png",

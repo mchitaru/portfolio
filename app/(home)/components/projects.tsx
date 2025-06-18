@@ -16,6 +16,20 @@ import Image from "next/image";
 
 const projects = [
   {
+    title: "Stomato - Dental Clinic Management Platform",
+    tech: [SiTypescript, SiNextdotjs, SiTailwindcss, SiPrisma],
+    link: "https://stomato.app/",
+    cover: "/Project5.png",
+    background: "bg-green-500",
+  },
+  {
+    title: "BloctriX - Blockchain Analythics Dashboard",
+    tech: [SiTypescript, SiNextdotjs, SiTailwindcss, SiPrisma],
+    link: "https://blocktrix.xyz/",
+    cover: "/Project6.png",
+    background: "bg-green-500",
+  },
+  {
     title: "Agilecoach - Personal Blog",
     tech: [SiNextdotjs, SiTailwindcss, SiMarkdown],
     link: "https://www.agilecoach.ro/",
@@ -43,20 +57,6 @@ const projects = [
     cover: "/Project4.png",
     background: "bg-green-500",
   },
-  {
-    title: "Stomato - Dental Clinic Management Platform",
-    tech: [SiTypescript, SiNextdotjs, SiTailwindcss, SiPrisma],
-    link: "https://stomato.app/",
-    cover: "/Project5.png",
-    background: "bg-green-500",
-  },
-  {
-    title: "BloctriX - Blockchain Analythics Dashboard",
-    tech: [SiTypescript, SiNextdotjs, SiTailwindcss, SiPrisma],
-    link: "https://blocktrix.xyz/",
-    cover: "/Project6.png",
-    background: "bg-green-500",
-  },
 ];
 
 export default function Projects() {
@@ -75,10 +75,10 @@ export default function Projects() {
               rel="noopener noreferrer"
               target="_blank"
             >
-              <div className={cn("p-5 rounded-md", project.background)}>
+              <div className={cn("p-3 rounded-md", project.background)}>
                 <DirectionAwareHover
                   imageUrl={project.cover}
-                  className="w-full h-60 space-y-5 cursor-pointer"
+                  className="w-full h-80 space-y-5 cursor-pointer"
                 >
                   <div className="space-y-5">
                     <h1 className="text-2xl font-bold">{project.title}</h1>

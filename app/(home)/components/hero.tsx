@@ -15,13 +15,7 @@ export default function Hero() {
           software
         </h1>
         <p className="w-auto max-w-lg text-lg text-gray-600 dark:text-gray-300">
-          {`I am a highly experienced software developer with over 18 years in the industry,
-              proficient in multiple programming languages and development environments.`}
-          <br />
-          {`With a
-              proven track record in full-stack development, software architecture, and leading
-              development teams to success, I also have significant experience in agile
-              methodologies and project management`}
+          {`I build complex, fast, reliable and UX optimized web apps in record time using Next.js. Your startup idea will be brought to life in less then a month.`}
         </p>
         <Link
           href={"mailto:marius.chitaru@gmail.com"}
